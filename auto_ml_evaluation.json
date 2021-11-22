@@ -1,0 +1,473 @@
+{
+  "modelEvaluations": [
+    {
+      "name": "projects/801322805998/locations/us-central1/models/7468098480133636096/evaluations/8524395452647342080",
+      "metricsSchemaUri": "gs://google-cloud-aiplatform/schema/modelevaluation/classification_metrics_1.0.0.yaml",
+      "metrics": {
+        "auPrc": 0.9424384,
+        "logLoss": 0.10318165,
+        "confidenceMetrics": [
+          {
+            "recall": 1,
+            "precision": 0.11111111,
+            "f1Score": 0.2,
+            "recallAt1": 0.8752456,
+            "precisionAt1": 0.8752456,
+            "f1ScoreAt1": 0.8752456
+          },
+          {
+            "confidenceThreshold": 0.05,
+            "recall": 0.9332024,
+            "precision": 0.7593925,
+            "f1Score": 0.8373733,
+            "recallAt1": 0.8752456,
+            "precisionAt1": 0.8752456,
+            "f1ScoreAt1": 0.8752456
+          },
+          {
+            "confidenceThreshold": 0.1,
+            "recall": 0.9194499,
+            "precision": 0.7912088,
+            "f1Score": 0.8505225,
+            "recallAt1": 0.8752456,
+            "precisionAt1": 0.8752456,
+            "f1ScoreAt1": 0.8752456
+          },
+          {
+            "confidenceThreshold": 0.15,
+            "recall": 0.913556,
+            "precision": 0.8086957,
+            "f1Score": 0.8579336,
+            "recallAt1": 0.8752456,
+            "precisionAt1": 0.8752456,
+            "f1ScoreAt1": 0.8752456
+          },
+          {
+            "confidenceThreshold": 0.2,
+            "recall": 0.90373284,
+            "precision": 0.82437277,
+            "f1Score": 0.8622306,
+            "recallAt1": 0.8752456,
+            "precisionAt1": 0.8752456,
+            "f1ScoreAt1": 0.8752456
+          },
+          {
+            "confidenceThreshold": 0.25,
+            "recall": 0.89587426,
+            "precision": 0.83593035,
+            "f1Score": 0.8648649,
+            "recallAt1": 0.8752456,
+            "precisionAt1": 0.8752456,
+            "f1ScoreAt1": 0.8752456
+          },
+          {
+            "confidenceThreshold": 0.3,
+            "recall": 0.8899804,
+            "precision": 0.846729,
+            "f1Score": 0.8678161,
+            "recallAt1": 0.8752456,
+            "precisionAt1": 0.8752456,
+            "f1ScoreAt1": 0.8752456
+          },
+          {
+            "confidenceThreshold": 0.35,
+            "recall": 0.8870334,
+            "precision": 0.85269123,
+            "f1Score": 0.86952335,
+            "recallAt1": 0.8752456,
+            "precisionAt1": 0.8752456,
+            "f1ScoreAt1": 0.8752456
+          },
+          {
+            "confidenceThreshold": 0.4,
+            "recall": 0.88310415,
+            "precision": 0.8635927,
+            "f1Score": 0.87323946,
+            "recallAt1": 0.8752456,
+            "precisionAt1": 0.8761062,
+            "f1ScoreAt1": 0.8756757
+          },
+          {
+            "confidenceThreshold": 0.45,
+            "recall": 0.8762279,
+            "precision": 0.86939573,
+            "f1Score": 0.87279844,
+            "recallAt1": 0.8742633,
+            "precisionAt1": 0.87684727,
+            "f1ScoreAt1": 0.87555337
+          },
+          {
+            "confidenceThreshold": 0.5,
+            "recall": 0.87328094,
+            "precision": 0.8775913,
+            "f1Score": 0.8754308,
+            "recallAt1": 0.87328094,
+            "precisionAt1": 0.8775913,
+            "f1ScoreAt1": 0.8754308
+          },
+          {
+            "confidenceThreshold": 0.55,
+            "recall": 0.8644401,
+            "precision": 0.88264793,
+            "f1Score": 0.87344915,
+            "recallAt1": 0.8644401,
+            "precisionAt1": 0.88264793,
+            "f1ScoreAt1": 0.87344915
+          },
+          {
+            "confidenceThreshold": 0.6,
+            "recall": 0.85756385,
+            "precision": 0.88809764,
+            "f1Score": 0.8725637,
+            "recallAt1": 0.85756385,
+            "precisionAt1": 0.88809764,
+            "f1ScoreAt1": 0.8725637
+          },
+          {
+            "confidenceThreshold": 0.65,
+            "recall": 0.84675837,
+            "precision": 0.89419085,
+            "f1Score": 0.86982846,
+            "recallAt1": 0.84675837,
+            "precisionAt1": 0.89419085,
+            "f1ScoreAt1": 0.86982846
+          },
+          {
+            "confidenceThreshold": 0.7,
+            "recall": 0.84282905,
+            "precision": 0.9012605,
+            "f1Score": 0.871066,
+            "recallAt1": 0.84282905,
+            "precisionAt1": 0.9012605,
+            "f1ScoreAt1": 0.871066
+          },
+          {
+            "confidenceThreshold": 0.75,
+            "recall": 0.82514733,
+            "precision": 0.90419805,
+            "f1Score": 0.8628659,
+            "recallAt1": 0.82514733,
+            "precisionAt1": 0.90419805,
+            "f1ScoreAt1": 0.8628659
+          },
+          {
+            "confidenceThreshold": 0.8,
+            "recall": 0.8133595,
+            "precision": 0.9139073,
+            "f1Score": 0.86070687,
+            "recallAt1": 0.8133595,
+            "precisionAt1": 0.9139073,
+            "f1ScoreAt1": 0.86070687
+          },
+          {
+            "confidenceThreshold": 0.85,
+            "recall": 0.7956778,
+            "precision": 0.91940975,
+            "f1Score": 0.8530806,
+            "recallAt1": 0.7956778,
+            "precisionAt1": 0.91940975,
+            "f1ScoreAt1": 0.8530806
+          },
+          {
+            "confidenceThreshold": 0.875,
+            "recall": 0.78585464,
+            "precision": 0.92272204,
+            "f1Score": 0.8488064,
+            "recallAt1": 0.78585464,
+            "precisionAt1": 0.92272204,
+            "f1ScoreAt1": 0.8488064
+          },
+          {
+            "confidenceThreshold": 0.9,
+            "recall": 0.7789784,
+            "precision": 0.9285714,
+            "f1Score": 0.8472222,
+            "recallAt1": 0.7789784,
+            "precisionAt1": 0.9285714,
+            "f1ScoreAt1": 0.8472222
+          },
+          {
+            "confidenceThreshold": 0.91,
+            "recall": 0.7740668,
+            "precision": 0.9314421,
+            "f1Score": 0.84549356,
+            "recallAt1": 0.7740668,
+            "precisionAt1": 0.9314421,
+            "f1ScoreAt1": 0.84549356
+          },
+          {
+            "confidenceThreshold": 0.92,
+            "recall": 0.77013755,
+            "precision": 0.93333334,
+            "f1Score": 0.8439182,
+            "recallAt1": 0.77013755,
+            "precisionAt1": 0.93333334,
+            "f1ScoreAt1": 0.8439182
+          },
+          {
+            "confidenceThreshold": 0.93,
+            "recall": 0.76522595,
+            "precision": 0.93405277,
+            "f1Score": 0.8412527,
+            "recallAt1": 0.76522595,
+            "precisionAt1": 0.93405277,
+            "f1ScoreAt1": 0.8412527
+          },
+          {
+            "confidenceThreshold": 0.94,
+            "recall": 0.7563851,
+            "precision": 0.934466,
+            "f1Score": 0.83604777,
+            "recallAt1": 0.7563851,
+            "precisionAt1": 0.934466,
+            "f1ScoreAt1": 0.83604777
+          },
+          {
+            "confidenceThreshold": 0.95,
+            "recall": 0.74557954,
+            "precision": 0.94052047,
+            "f1Score": 0.8317808,
+            "recallAt1": 0.74557954,
+            "precisionAt1": 0.94052047,
+            "f1ScoreAt1": 0.8317808
+          },
+          {
+            "confidenceThreshold": 0.96,
+            "recall": 0.73477405,
+            "precision": 0.94325346,
+            "f1Score": 0.8260629,
+            "recallAt1": 0.73477405,
+            "precisionAt1": 0.94325346,
+            "f1ScoreAt1": 0.8260629
+          },
+          {
+            "confidenceThreshold": 0.97,
+            "recall": 0.72200394,
+            "precision": 0.9447301,
+            "f1Score": 0.81848556,
+            "recallAt1": 0.72200394,
+            "precisionAt1": 0.9447301,
+            "f1ScoreAt1": 0.81848556
+          },
+          {
+            "confidenceThreshold": 0.98,
+            "recall": 0.7033399,
+            "precision": 0.9533955,
+            "f1Score": 0.8094969,
+            "recallAt1": 0.7033399,
+            "precisionAt1": 0.9533955,
+            "f1ScoreAt1": 0.8094969
+          },
+          {
+            "confidenceThreshold": 0.99,
+            "recall": 0.6777996,
+            "precision": 0.9596662,
+            "f1Score": 0.79447323,
+            "recallAt1": 0.6777996,
+            "precisionAt1": 0.9596662,
+            "f1ScoreAt1": 0.79447323
+          },
+          {
+            "confidenceThreshold": 0.995,
+            "recall": 0.6463654,
+            "precision": 0.97193503,
+            "f1Score": 0.77640116,
+            "recallAt1": 0.6463654,
+            "precisionAt1": 0.97193503,
+            "f1ScoreAt1": 0.77640116
+          },
+          {
+            "confidenceThreshold": 0.996,
+            "recall": 0.6286837,
+            "precision": 0.9756098,
+            "f1Score": 0.7646356,
+            "recallAt1": 0.6286837,
+            "precisionAt1": 0.9756098,
+            "f1ScoreAt1": 0.7646356
+          },
+          {
+            "confidenceThreshold": 0.997,
+            "recall": 0.61394894,
+            "precision": 0.97809076,
+            "f1Score": 0.7543754,
+            "recallAt1": 0.61394894,
+            "precisionAt1": 0.97809076,
+            "f1ScoreAt1": 0.7543754
+          },
+          {
+            "confidenceThreshold": 0.998,
+            "recall": 0.5874263,
+            "precision": 0.9819376,
+            "f1Score": 0.73509526,
+            "recallAt1": 0.5874263,
+            "precisionAt1": 0.9819376,
+            "f1ScoreAt1": 0.73509526
+          },
+          {
+            "confidenceThreshold": 0.999,
+            "recall": 0.546169,
+            "precision": 0.9875666,
+            "f1Score": 0.70335233,
+            "recallAt1": 0.546169,
+            "precisionAt1": 0.9875666,
+            "f1ScoreAt1": 0.70335233
+          },
+          {
+            "confidenceThreshold": 1,
+            "recall": 0.02259332,
+            "precision": 1,
+            "f1Score": 0.04418828,
+            "recallAt1": 0.02259332,
+            "precisionAt1": 1,
+            "f1ScoreAt1": 0.04418828
+          }
+        ],
+        "confusionMatrix": {
+          "annotationSpecs": [
+            {
+              "id": "176109876932509696",
+              "displayName": "Wissenschaft"
+            },
+            {
+              "id": "896685817311789056",
+              "displayName": "Kultur"
+            },
+            {
+              "id": "2049607321918636032",
+              "displayName": "Panorama"
+            },
+            {
+              "id": "3202528826525483008",
+              "displayName": "Inland"
+            },
+            {
+              "id": "4355450331132329984",
+              "displayName": "Wirtschaft"
+            },
+            {
+              "id": "5508371835739176960",
+              "displayName": "Sport"
+            },
+            {
+              "id": "6661293340346023936",
+              "displayName": "Web"
+            },
+            {
+              "id": "7814214844952870912",
+              "displayName": "Etat"
+            },
+            {
+              "id": "8967136349559717888",
+              "displayName": "International"
+            }
+          ],
+          "rows": [
+            [
+              47,
+              0,
+              5,
+              1,
+              0,
+              0,
+              3,
+              0,
+              1
+            ],
+            [
+              1,
+              41,
+              1,
+              2,
+              0,
+              0,
+              0,
+              2,
+              2
+            ],
+            [
+              4,
+              2,
+              131,
+              16,
+              3,
+              1,
+              0,
+              0,
+              7
+            ],
+            [
+              3,
+              0,
+              4,
+              79,
+              3,
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              2,
+              1,
+              3,
+              7,
+              106,
+              1,
+              5,
+              2,
+              1
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              127,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              1,
+              5,
+              0,
+              165,
+              3,
+              3
+            ],
+            [
+              0,
+              4,
+              1,
+              3,
+              0,
+              0,
+              3,
+              46,
+              2
+            ],
+            [
+              2,
+              2,
+              6,
+              1,
+              1,
+              0,
+              1,
+              1,
+              149
+            ]
+          ]
+        }
+      },
+      "createTime": "2021-10-24T12:30:12.680271Z",
+      "sliceDimensions": [
+        "annotationSpec"
+      ]
+    }
+  ]
+}
